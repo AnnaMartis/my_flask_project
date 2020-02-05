@@ -1,0 +1,41 @@
+{% extends "shop/base.html"%}
+{% block content %}
+<div class="container my-5">
+<div class="my-5">
+	<h2>Income/Accounting</h2>
+</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Product Name</th>
+      <th scope="col">Quantity Sold</th>
+      <th scope="col">Whole quantity</th>
+<!--      <th scope="col">Remained quantity</th>-->
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+  	{% for cart in carts_ord %}
+      <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td>{{ cart.item }}</td>
+        <td>{{ cart.quantity }}</td>
+        <td>{{ cart.item.quantity }}</td>
+<!--        <td>{{ quant_remained }}</td>-->
+
+        <td>${{ cart.get_total }}</td>
+      </tr>
+	{% endfor %}
+    <tr>
+      <th scope="row"></th>
+      <td colspan="2">Total Income</td>
+      <td>${{ income }}</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+    </tr>
+  </tbody>
+</table>
+</div>
+{% endblock %}

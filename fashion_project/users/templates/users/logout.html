@@ -1,0 +1,17 @@
+{% extends "shop/base.html"%}
+{% block content %}
+    <main role="main" class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+                <h2>You Have Been Logged Out!</h2>
+                <div class="border-top pt-3">
+                    <small class="text-muted">
+                        Already Have An Account? <a class="ml-2" href="{% url 'login' %}">Sign In</a>
+                    </small>
+                </div>
+            </div>
+          </div>
+    </main>
+
+{% endblock content %}
+

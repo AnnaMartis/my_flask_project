@@ -1,0 +1,65 @@
+{% extends "shop/base.html"%}
+{% block content %}
+{% load static %}
+
+	<!--================Header Menu Area =================-->
+
+	<!--================Home Banner Area =================-->
+	<section class="banner_area">
+		<div class="banner_inner d-flex align-items-center">
+			<div class="container">
+				<div class="banner_content text-center">
+					<h2>Single Product Page</h2>
+					<div class="page_link">
+						<a href="index.html">Home</a>
+						<a href="category.html">Category</a>
+						<a href="single-product.html">Product Details</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Banner Area =================-->
+
+	<!--================Single Product Area =================-->
+	<div class="product_image_area">
+		<div class="container">
+			<div class="row s_product_inner">
+				<div class="col-lg-6">
+					<div class="s_product_img">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="{{ object.img_url }}" alt="First slide">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 offset-lg-1">
+					<div class="s_product_text">
+						<h3>{{ object.title }}</h3>
+						<h2>${{ object.price }}</h2>
+						<p>Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that
+							can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.</p>
+						{% if user.is_authenticated %}
+							<div class="card_area">
+								<a class="main_btn" href="{% url 'shop:add-to-cart' object.slug %}">Add to Cart</a>
+							</div>
+							<div class="card_area">
+								<a class="main_btn" href="{% url 'shop:decrease-from-cart' object.slug %}">Decrease Quantity From Cart</a>
+							</div>
+							<div class="card_area">
+								<a class="main_btn" href="{% url 'shop:delete-from-cart' object.slug %}">Delete From Cart</a>
+							</div>
+						{% else %}
+							<div class="card_area">
+								<a class="main_btn" href="{% url 'login' %}">Add to Cart</a>
+							</div>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock content%}
