@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="521e52a9-107e-4353-8364-6f2392795ef1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/fashion_project/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/fashion_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/fashion_project/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/fashion_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/fashion_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/fashion_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/migrations/0002_auto_20200202_1929.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/migrations/0003_orderproduct_quantity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/migrations/0004_userprofile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/migrations/0005_auto_20200202_2239.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/migrations/0006_auto_20200204_1741.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/css/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/css/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/fonts/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/js/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/js/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/js/jquery.nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shCore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/Fashiop-doc/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/_about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/_client.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/_feature.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/_gallery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/_product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/_team.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/_timer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/_variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/breadcrumb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/banner/banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/banner/banner-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/banner/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/banner/home-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/add.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/c1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/c2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/c3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/cat-post/cat-post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/cat-post/cat-post-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/cat-post/cat-post-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/causes/causes-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/causes/causes-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/causes/causes-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/feature-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/latest-post/l-post-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/latest-post/l-post-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/latest-post/l-post-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/latest-post/l-post-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/main-blog/m-blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/main-blog/m-blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/main-blog/m-blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/main-blog/m-blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/main-blog/m-blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/next.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/popular-post/post1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/popular-post/post2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/popular-post/post3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/popular-post/post4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/post-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/post-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/blog/prev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/breadcrumb/checkout-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/clients-logo/c-logo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/clients-logo/c-logo-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/clients-logo/c-logo-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/clients-logo/c-logo-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/clients-logo/c-logo-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/disabled-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/disabled-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/f3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/f4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/f5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/f8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/g1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/g2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/g3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/g4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/g5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/g6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/g7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/primary-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/primary-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/success-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/success-radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/user1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/elements/user2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/instagram/Image-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/instagram/Image-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/instagram/Image-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/instagram/Image-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/instagram/Image-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/instagram/Image-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/instagram/Image-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/instagram/Image-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/feature-product/f-p-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/feature-product/f-p-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/feature-product/f-p-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/feature-product/f-p-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/feature-product/f-p-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/hot_deals/deal1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/most-product/m-product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/single-product/card.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/single-product/cart-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/single-product/review-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/single-product/review-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/single-product/review-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/single-product/s-product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/single-product/s-product-s-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/single-product/s-product-s-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/img/product/single-product/s-product-s-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/gmaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/jquery.ajaxchimp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/stellar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_blog.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_clients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_elements.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_predefine.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_product.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_timer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/animate-css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/animate-css/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/bootstrap-datepicker/bootstrap-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/bootstrap-datepicker/bootstrap-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/counter-up/jquery.counterup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/counter-up/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/flipclock/timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/isotope/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/isotope/isotope-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/jquery-ui/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/jquery-ui/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/lightbox/simpleLightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/lightbox/simpleLightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/linericon/fonts/Linearicons-Free.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/linericon/fonts/Linearicons-Free.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/linericon/fonts/Linearicons-Free.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/linericon/fonts/Linearicons-Free.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/linericon/fonts/Linearicons-Free.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/linericon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/nice-select/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/nice-select/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/nice-select/js/jquery.nice-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/nice-select/js/jquery.nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/owl-carousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/owl-carousel/assets/animated.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/owl-carousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/owl-carousel/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/static/shop/vendors/owl-carousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/templates/shop/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/templates/shop/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/templates/shop/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/templates/shop/gender.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/templates/shop/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/templates/shop/sales.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/templates/shop/single-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/templatetags/cart_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/shop/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/templates/users/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/templates/users/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/templates/users/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/templates/users/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fashion_project/users/views.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>settings</find>
+      <find>userprofile</find>
+      <find>country</find>
+      <find>shop</find>
+      <find>cart_total</find>
+      <find>has added to your cart.</find>
+      <find>name</find>
+      <find>slug</find>
+      <find>add-to-cart</find>
+      <find>quantity</find>
+      <find>cart-view</find>
+      <find>login</find>
+      <find>contact</find>
+      <find>orderitems</find>
+      <find>white_king_moves</find>
+      <find>king</find>
+      <find>white_queen_moves</find>
+      <find>if self.m_alph.index(self.black_king[0]) != 0:</find>
+      <find>rook</find>
+      <find>true</find>
+      <find>queen</find>
+      <find>print</find>
+      <find>print_board</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>black_king_moves</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/django-ecommerce/core/models.py" />
+        <option value="$PROJECT_DIR$/django-ecommerce/core/views.py" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/templatetags/cart_tag.py" />
+        <option value="$PROJECT_DIR$/fashion_project/fashion_project/urls.py" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/templates/shop/contact.html" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/admin.py" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/models.py" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/urls.py" />
+        <option value="$PROJECT_DIR$/test_list.py" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/templates/shop/base.html" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/templates/shop/cart.html" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/templates/shop/sales.html" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/views.py" />
+        <option value="$PROJECT_DIR$/fashion_project/shop/templates/shop/single-product.html" />
+        <option value="$PROJECT_DIR$/chess_ex.py" />
+        <option value="$PROJECT_DIR$/test_chess.py" />
+        <option value="$PROJECT_DIR$/chess_game_2.py" />
+        <option value="$PROJECT_DIR$/chess_game.py" />
+        <option value="$PROJECT_DIR$/chess_game_oop.py" />
+        <option value="$PROJECT_DIR$/final_chess_game.py" />
+        <option value="$PROJECT_DIR$/testing.py" />
+        <option value="$PROJECT_DIR$/oop.py" />
+        <option value="C:/xampp/htdocs/phplessons/New Text Document (2).html" />
+        <option value="$PROJECT_DIR$/HKH.html" />
+        <option value="$PROJECT_DIR$/oop_exercises.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="865" />
+    <option name="y" value="-10" />
+    <option name="width" value="930" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="movies_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (myproject) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (myproject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Flask">
+    <configuration name="Flask" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/second project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second project/Flask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="final_chess_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/final_chess_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oop_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_exercises.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Flask" />
+        <item itemvalue="Python.oop_exercises" />
+        <item itemvalue="Python.oop" />
+        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.final_chess_game" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="521e52a9-107e-4353-8364-6f2392795ef1" name="Default Changelist" comment="" />
+      <created>1580660226528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580660226528</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25231177" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7608983" weight="0.33097595" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993395" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.84147954" visible="true" weight="0.3536068" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23910172" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/django-ecommerce/core/apps.py" />
+    <entry file="file://$PROJECT_DIR$/django-ecommerce/core/models.py" />
+    <entry file="file://$PROJECT_DIR$/django-ecommerce/core/admin.py" />
+    <entry file="file://$PROJECT_DIR$/django-ecommerce/core/urls.py" />
+    <entry file="file://$PROJECT_DIR$/django-ecommerce/core/views.py" />
+    <entry file="file://$PROJECT_DIR$/django-ecommerce/djecommerce/settings/base.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/fashion_project/settings.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/fashion_project/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/templates/shop/contact.html" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/templates/shop/home.html" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/fashion_project/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Django-eCommerce-tutorial-manascode/ecommerce/products/views.py" />
+    <entry file="file://$PROJECT_DIR$/Django-eCommerce-tutorial-manascode/ecommerce/products/models.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/templatetags/cart_tag.py" />
+    <entry file="file://$PROJECT_DIR$/test_list.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/templates/shop/cart.html" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/templates/shop/sales.html" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/templates/shop/base.html" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/templates/shop/gender.html" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/urls.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/views.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/templates/shop/single-product.html" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/models.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/migrations/0006_auto_20200204_1741.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/shop/admin.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/users/models.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/users/urls.py" />
+    <entry file="file://$PROJECT_DIR$/fashion_project/users/views.py" />
+    <entry file="file://$PROJECT_DIR$/chess_ex.py" />
+    <entry file="file://$PROJECT_DIR$/test_chess.py" />
+    <entry file="file://$PROJECT_DIR$/chess_game_oop.py" />
+    <entry file="file://$PROJECT_DIR$/chess_game.py" />
+    <entry file="file://$PROJECT_DIR$/testing.py" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/chess_game_2.py" />
+    <entry file="file://$PROJECT_DIR$/oop.py" />
+    <entry file="file://$PROJECT_DIR$/final_chess_game.py" />
+    <entry file="file://C:/xampp/htdocs/phplessons/New Text Document (2).html" />
+    <entry file="file://$PROJECT_DIR$/oop_exercises.py" />
+    <entry file="file://$PROJECT_DIR$/HKH.html" />
+    <entry file="file://$PROJECT_DIR$/second project/templates/horror.html" />
+    <entry file="file://$PROJECT_DIR$/second project/templates/index_original.html" />
+    <entry file="file://$PROJECT_DIR$/second project/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second project/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,986 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="static/list-css/table-style.css" />
+<link rel="stylesheet" type="text/css" href="static/list-css/basictable.css" />
+<script type="text/javascript" src="static/list-js/jquery.basictable.min.js"></script>
+
+
+ <script type="text/javascript">
+    $(document).ready(function() {
+      $('#table').basictable();
+
+      $('#table-breakpoint').basictable({
+        breakpoint: 768
+      });
+	   $('#table-breakpoint1').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint2').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint3').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint4').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint5').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint6').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint7').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint8').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint9').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint10').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint11').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint12').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint13').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint14').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint15').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint16').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint17').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint18').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint19').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint20').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint21').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint22').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint23').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint24').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint25').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint26').basictable({
+        breakpoint: 768
+      });
+    });
+  </script>
+
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="w3layouts_logo">
+				<a href="/"><h1>One<span>Movies</span></h1></a>
+			</div>
+			<div class="w3_search">
+				<form action="#" method="post">
+					<input type="text" name="Search" placeholder="Search" required="">
+					<input type="submit" value="Go">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+		<script>
+		$('.toggle').click(function(){
+		  // Switches the Icon
+		  $(this).children('i').toggleClass('fa-pencil');
+		  // Switches the forms
+		  $('.form').animate({
+			height: "toggle",
+			'padding-top': 'toggle',
+			'padding-bottom': 'toggle',
+			opacity: "toggle"
+		  }, "slow");
+		});
+	</script>
+
+	<div class="faq">
+		<h4 class="latest-text w3_faq_latest_text w3_latest_text">Movies List</h4>
+			<div class="container">
+				<div class="agileits-news-top">
+					<ol class="breadcrumb">
+					  <li><a href="/">Home</a></li>
+					  <li class="active">List</li>
+					</ol>
+				</div>
+				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+						<ul id="myTab" class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">0 - 9</a></li>
+							<li role="presentation"><a href="#a" role="tab" id="a-tab" data-toggle="tab" aria-controls="a">A</a></li>
+							<li role="presentation"><a href="#b" role="tab" id="b-tab" data-toggle="tab" aria-controls="b">B</a></li>
+							<li role="presentation"><a href="#c" role="tab" id="c-tab" data-toggle="tab" aria-controls="c">C</a></li>
+							<li role="presentation"><a href="#d" role="tab" id="d-tab" data-toggle="tab" aria-controls="d">D</a></li>
+							<li role="presentation"><a href="#e" role="tab" id="e-tab" data-toggle="tab" aria-controls="e">E</a></li>
+							<li role="presentation"><a href="#f" role="tab" id="f-tab" data-toggle="tab" aria-controls="f">F</a></li>
+							<li role="presentation"><a href="#g" role="tab" id="g-tab" data-toggle="tab" aria-controls="g">G</a></li>
+							<li role="presentation"><a href="#h" role="tab" id="h-tab" data-toggle="tab" aria-controls="h">H</a></li>
+							<li role="presentation"><a href="#i" role="tab" id="i-tab" data-toggle="tab" aria-controls="i">I</a></li>
+							<li role="presentation"><a href="#j" role="tab" id="j-tab" data-toggle="tab" aria-controls="j">J</a></li>
+							<li role="presentation"><a href="#k" role="tab" id="k-tab" data-toggle="tab" aria-controls="k">K</a></li>
+							<li role="presentation"><a href="#l" role="tab" id="l-tab" data-toggle="tab" aria-controls="l">L</a></li>
+							<li role="presentation"><a href="#m" role="tab" id="m-tab" data-toggle="tab" aria-controls="m">M</a></li>
+							<li role="presentation"><a href="#n" role="tab" id="n-tab" data-toggle="tab" aria-controls="n">N</a></li>
+							<li role="presentation"><a href="#o" role="tab" id="o-tab" data-toggle="tab" aria-controls="o">O</a></li>
+							<li role="presentation"><a href="#p" role="tab" id="p-tab" data-toggle="tab" aria-controls="p">P</a></li>
+							<li role="presentation"><a href="#q" role="tab" id="q-tab" data-toggle="tab" aria-controls="q">Q</a></li>
+							<li role="presentation"><a href="#r" role="tab" id="r-tab" data-toggle="tab" aria-controls="r">R</a></li>
+							<li role="presentation"><a href="#s" role="tab" id="s-tab" data-toggle="tab" aria-controls="s">S</a></li>
+							<li role="presentation"><a href="#t" role="tab" id="t-tab" data-toggle="tab" aria-controls="t">T</a></li>
+							<li role="presentation"><a href="#u" role="tab" id="u-tab" data-toggle="tab" aria-controls="u">U</a></li>
+							<li role="presentation"><a href="#v" role="tab" id="v-tab" data-toggle="tab" aria-controls="v">V</a></li>
+							<li role="presentation"><a href="#w" role="tab" id="w-tab" data-toggle="tab" aria-controls="w">W</a></li>
+							<li role="presentation"><a href="#x" role="tab" id="x-tab" data-toggle="tab" aria-controls="x">X</a></li>
+							<li role="presentation"><a href="#y" role="tab" id="y-tab" data-toggle="tab" aria-controls="y">Y</a></li>
+							<li role="presentation"><a href="#z" role="tab" id="z-tab" data-toggle="tab" aria-controls="z">Z</a></li>
+						</ul>
+						<div id="myTabContent" class="tab-content">
+							<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+								<div class="agile-news-table">
+									<div class="w3ls-news-result">
+										<h4>Search Results : <span>{{ max_count }}</span></h4>
+									</div>
+									<table id="table-breakpoint">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row in data %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row['id']}}"> <img src="{{row['small_pic_url']}}" alt="" /> <span>{{row['title']}}</span></a></td>
+											<td>{{row['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row['country']}}">{{row['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row['genre']}}">{{row['genre']}}</a></td>
+											<td>{{row['rating_wa']}}</td>
+										  </tr>
+											<script src="static/js/bootstrap.min.js"></script>
+										  {% endfor %}
+
+										</tbody>
+									</table>
+								</div>
+							</div>
+							   <tfoot>
+								 <tr>
+									<td colspan=3>
+										{% for page_num in range(1, page_count+1) %}
+											{% if page_num == page %}
+												{{ page_num }}
+											{% else %}
+												<a href='?page={{ page_num }}&query={{ query }}'>{{ page_num }}</a>
+											{% endif %}								&nbsp;
+										{% endfor %}
+									</td>
+								</tr>
+							</tfoot>
+							<div role="tabpanel" class="tab-pane fade" id="a" aria-labelledby="a-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint1">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_a in a_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_a['id']}}"><span>{{row_a['title']}}</span></a></td>
+											<td>{{row_a['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_a['country']}}">{{row_a['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_a['genre']}}">{{row_a['genre']}}</a></td>
+											<td>{{row_a['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+
+								<div role="tabpanel" class="tab-pane fade" id="b" aria-labelledby="b-tab">
+									<div class="agile-news-table">
+										<table id="table-breakpoint2">
+											<thead>
+											  <tr>
+												<th>No.</th>
+												<th>Movie Name</th>
+												<th>Year</th>
+												<th>Country</th>
+												<th>Genre</th>
+												<th>Rating</th>
+											  </tr>
+											</thead>
+											<tbody>
+										     {% for row_b in b_res %}
+											  <tr>
+												<td>{{ loop.index }}</td>
+												<td class="w3-list-img"><a href="/movies/{{row_b['id']}}"> <span>{{row_b['title']}}</span></a></td>
+												<td>{{row_b['released']}}</td>
+												<td class="w3-list-info"><a href="/country/{{row_b['country']}}">{{row_b['country']}}</a></td>
+												<td class="w3-list-info"><a href="/genre/{{row_b['genre']}}">{{row_b['genre']}}</a></td>
+												<td>{{row_b['rating_wa']}}</td>
+											  </tr>
+											 {% endfor %}
+											</tbody>
+										</table>
+									</div>
+								</div>
+<!--						</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--	</div>-->
+
+							<div role="tabpanel" class="tab-pane fade" id="c" aria-labelledby="c-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint3">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_c in c_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_c['id']}}"><img src="images/n3.jpg" alt="" /> <span>{{row_c['title']}}</span></a></td>
+											<td>{{row_c['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_c['country']}}">{{row_c['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_c['genre']}}">{{row_c['genre']}}</a></td>
+											<td>{{row_c['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="d" aria-labelledby="d-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint4">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_d in d_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_d['id']}}"><span>{{row_d['title']}}</span></a></td>
+											<td>{{row_d['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_d['country']}}">{{row_d['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_d['genre']}}">{{row_d['genre']}}</a></td>
+											<td>{{row_d['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="e" aria-labelledby="e">
+								<div class="agile-news-table">
+									<table id="table-breakpoint5">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_e in e_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_e['id']}}"><span>{{row_e['title']}}</span></a></td>
+											<td>{{row_e['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_e['country']}}">{{row_e['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_e['genre']}}">{{row_e['genre']}}</a></td>
+											<td>{{row_e['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="f" aria-labelledby="f-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint6">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_f in f_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_f['id']}}"> <span>{{row_f['title']}}</span></a></td>
+											<td>{{row_f['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_f['country']}}">{{row_f['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_f['genre']}}">{{row_f['genre']}}</a></td>
+											<td>{{row_f['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="g" aria-labelledby="g-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint7">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_g in g_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_g['id']}}"> <span>{{row_g['title']}}</span></a></td>
+											<td>{{row_g['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_g['country']}}">{{row_g['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_g['genre']}}">{{row_g['genre']}}</a></td>
+											<td>{{row_g['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="h" aria-labelledby="h-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint8">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_h in h_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_h['id']}}"><span>{{row_h['title']}}</span></a></td>
+											<td>{{row_h['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_h['country']}}">{{row_h['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_h['genre']}}">{{row_h['genre']}}</a></td>
+											<td>{{row_h['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="i" aria-labelledby="i-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint9">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_i in i_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_i['id']}}"> <span>{{row_i['title']}}</span></a></td>
+											<td>{{row_i['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_i['country']}}">{{row_i['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_i['genre']}}">{{row_i['genre']}}</a></td>
+											<td>{{row_i['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="j" aria-labelledby="j-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint10">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_j in j_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_j['id']}}"> <span>{{row_j['title']}}</span></a></td>
+											<td>{{row_j['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_j['country']}}">{{row_j['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_j['genre']}}">{{row_j['genre']}}</a></td>
+											<td>{{row_j['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="k" aria-labelledby="k-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint11">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_k in k_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_k['id']}}"><span>{{row_k['title']}}</span></a></td>
+											<td>{{row_k['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_k['country']}}">{{row_k['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_k['genre']}}">{{row_k['genre']}}</a></td>
+											<td>{{row_k['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="l" aria-labelledby="l-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint12">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_l in l_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_l['id']}}"> <span>{{row_l['title']}}</span></a></td>
+											<td>{{row_l['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_l['country']}}">{{row_l['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_l['genre']}}">{{row_l['genre']}}</a></td>
+											<td>{{row_l['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="m" aria-labelledby="m-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint13">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_m in m_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_m['id']}}"> <span>{{row_m['title']}}</span></a></td>
+											<td>{{row_m['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_m['country']}}">{{row_m['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_m['genre']}}">{{row_m['genre']}}</a></td>
+											<td>{{row_m['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="n" aria-labelledby="n-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint14">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_n in n_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_n['id']}}"> <span>{{row_n['title']}}</span></a></td>
+											<td>{{row_n['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_n['country']}}">{{row_n['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_n['genre']}}">{{row_n['genre']}}</a></td>
+											<td>{{row_n['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="o" aria-labelledby="o-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint15">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_o in o_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_o['id']}}"> <span>{{row_o['title']}}</span></a></td>
+											<td>{{row_o['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_o['country']}}">{{row_o['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_o['genre']}}">{{row_o['genre']}}</a></td>
+											<td>{{row_o['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="p" aria-labelledby="p-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint16">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_p in p_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_p['id']}}"><span>{{row_p['title']}}</span></a></td>
+											<td>{{row_p['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_p['country']}}">{{row_p['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_p['genre']}}">{{row_p['genre']}}</a></td>
+											<td>{{row_p['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="q" aria-labelledby="q-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint17">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_q in q_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_q['id']}}"> <span>{{row_q['title']}}</span></a></td>
+											<td>{{row_q['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_q['country']}}">{{row_q['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_q['genre']}}">{{row_q['genre']}}</a></td>
+											<td>{{row_q['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="r" aria-labelledby="r-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint18">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_r in r_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_r['id']}}"> <span>{{row_r['title']}}</span></a></td>
+											<td>{{row_r['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_r['country']}}">{{row_r['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_r['genre']}}">{{row_r['genre']}}</a></td>
+											<td>{{row_r['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="s" aria-labelledby="s-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint19">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_s in s_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_s['id']}}"><span>{{row_s['title']}}</span></a></td>
+											<td>{{row_s['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_s['country']}}">{{row_s['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_s['genre']}}">{{row_s['genre']}}</a></td>
+											<td>{{row_s['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="t" aria-labelledby="t-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint20">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_t in t_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_t['id']}}"> <span>{{row_t['title']}}</span></a></td>
+											<td>{{row_t['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_t['country']}}">{{row_t['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_t['genre']}}">{{row_t['genre']}}</a></td>
+											<td>{{row_t['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="u" aria-labelledby="u-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint21">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_u in u_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_u['id']}}"> <span>{{row_u['title']}}</span></a></td>
+											<td>{{row_u['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_u['country']}}">{{row_u['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_u['genre']}}">{{row_u['genre']}}</a></td>
+											<td>{{row_u['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="v" aria-labelledby="v-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint22">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_v in v_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_v['id']}}"> <span>{{row_v['title']}}</span></a></td>
+											<td>{{row_v['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_v['country']}}">{{row_v['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_v['genre']}}">{{row_v['genre']}}</a></td>
+											<td>{{row_v['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="w" aria-labelledby="w-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint23">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_w in w_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_w['id']}}"><span>{{row_w['title']}}</span></a></td>
+											<td>{{row_w['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_w['country']}}">{{row_w['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_w['genre']}}">{{row_w['genre']}}</a></td>
+											<td>{{row_w['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="x" aria-labelledby="x-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint24">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_x in x_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_x['id']}}"> <span>{{row_x['title']}}</span></a></td>
+											<td>{{row_x['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_x['country']}}">{{row_x['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_x['genre']}}">{{row_x['genre']}}</a></td>
+											<td>{{row_x['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="y" aria-labelledby="y-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint25">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_y in y_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_y['id']}}"> <span>{{row_y['title']}}</span></a></td>
+											<td>{{row_y['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_y['country']}}">{{row_y['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_y['genre']}}">{{row_y['genre']}}</a></td>
+											<td>{{row_y['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="z" aria-labelledby="z-tab">
+								<div class="agile-news-table">
+									<table id="table-breakpoint26">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Country</th>
+											<th>Genre</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  {% for row_z in z_res %}
+										  <tr>
+											<td>{{ loop.index }}</td>
+											<td class="w3-list-img"><a href="/movies/{{row_z['id']}}"> <span>{{row_z['title']}}</span></a></td>
+											<td>{{row_z['released']}}</td>
+											<td class="w3-list-info"><a href="/country/{{row_z['country']}}">{{row_z['country']}}</a></td>
+											<td class="w3-list-info"><a href="/genre/{{row_z['genre']}}">{{row_z['genre']}}</a></td>
+											<td>{{row_z['rating_wa']}}</td>
+										  </tr>
+										  {% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+							</div>
+				</div>
+			</div>
+	</div>
+	<script src="static/js/bootstrap.min.js"></script>
+
+</body>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');
+        }
+    );
+});
+</script>
+<!-- //Bootstrap Core JavaScript -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+	</script>
+
+{% endblock %}
+

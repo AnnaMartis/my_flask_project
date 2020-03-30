@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% block content %}
+
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="w3layouts_logo">
+				<a href="index.html"><h1>One<span>Movies</span></h1></a>
+			</div>
+			<div class="w3_search">
+				<form action="#" method="post">
+					<input type="text" name="Search" placeholder="Search" required="">
+					<input type="submit" value="Go">
+				</form>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- bootstrap-pop-up -->
+	<script>
+		$('.toggle').click(function(){
+		  // Switches the Icon
+		  $(this).children('i').toggleClass('fa-pencil');
+		  // Switches the forms  
+		  $('.form').animate({
+			height: "toggle",
+			'padding-top': 'toggle',
+			'padding-bottom': 'toggle',
+			opacity: "toggle"
+		  }, "slow");
+		});
+	</script>
+<div class="single-page-agile-main">
+<div class="container">
+		<!-- /w3l-medile-movies-grids -->
+			<div class="agileits-single-top">
+				<ol class="breadcrumb">
+				  <li><a href="index.html">Home</a></li>
+				  <li class="active">Single</li>
+				</ol>
+			</div>
+			<div class="single-page-agile-info">
+                   <!-- /movie-browse-agile -->
+                           <div class="show-top-grids-w3lagile">
+				<div class="col-sm-8 single-left">
+					<div class="song">
+						<div class="song-info">
+							<h3>{{data['title']}}</h3>
+					</div>
+						<div class="video-grid-single-page-agileits video_img">
+							<div data-video="dLmKio67pVQ" id="video"> <img src={{data['small_pic_url']}}" alt="" class="img-responsive" /> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 single-right">
+					<h3>Cast</h3>
+					<div class="single-grid-right">
+						{% for person in people %}
+						<div class="single-right-grids">
+							<div class="col-md-4 single-right-grid-left">
+								<a href="/person/{{person['people_id']}}"><img src={{person['pic_url']}} alt="" /></a>
+							</div>
+							<div class="col-md-8 single-right-grid-right">
+								<a href="/person/{{person['people_id']}}" class="title"> {{person['name']}}
+								</a>
+								<p class="author"><a href="#" class="author">{{person['role']}}</a></p>
+<!--								<p class="views">Born {{person['birthdate']}} </p>-->
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		 <div style="background-color: #FFE4C4;color:#000000;padding:8px;">
+			 <table>
+				 <tr>
+                  <td><h6></h6>Details:</h6>
+					 <ul style="list-style-type:none;......">
+						 <li><span style="font-size: 16px; padding-right: 10px;">Description:</span> {{data['description']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Genre:</span> {{data['genre']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Duration:</span> {{data['duration']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Released year:</span> {{data['released']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Country:</span> {{data['country']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Language:</span> {{data['language']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Companies:</span> {% for company in companies %} {{company['company_name']}} |{% endfor %}
+						 </li>
+					 </ul>
+				   </td>
+				 </tr>
+			 </table>
+		  </div>
+		 <div style="background-color: #FFE4C4;color:#000000;padding:8px;">
+			 <table>
+				 <tr>
+                  <td><h6></h6>Rating Info:</h6>
+					 <ul style="list-style-type:none;......">
+						 <li><span style="font-size: 16px; padding-right: 10px;">IMDB rating:</span> {{data['rating_wa']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Number of voters:</span> {{data['voters']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Rating median:</span> {{data['rating_median']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Males:</span> {{data['rating_male']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Females:</span> {{data['rating_female']}}</li>
+					 </ul>
+				   </td>
+				 </tr>
+			 </table>
+		  </div>
+
+
+
+		 <div style="background-color: #FFE4C4;color:#000000;padding:8px;">
+			 <table>
+				 <tr>
+                  <td><h6></h6>Box Office:</h6>
+					 <ul style="list-style-type:none;......">
+						 <li><span style="font-size: 16px; padding-right: 10px;">Budget:</span> {{data['budget']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Opening Weekend USA:</span> {{data['open_week_us']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Gross USA:</span> {{data['gross_usa']}}</li>
+						 <li><span style="font-size: 16px; padding-right: 10px;">Cumulative Worldwide Gross:</span> {{data['gross_world']}}</li>
+
+					 </ul>
+				   </td>
+				 </tr>
+			 </table>
+		  </div>
+
+<!-- footer -->
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- //Bootstrap Core JavaScript -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+{% endblock %}
